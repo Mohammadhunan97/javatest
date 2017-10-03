@@ -34,3 +34,8 @@ Floats are 32 bits, while doubles are 64 bits.
 
 * booleans are true/false values that are less than or equal to 1 bit.
 
+* you can cast to a different datatype by newvar = (what you want to cast to) <old var>; for instance, int foo = (int) 3.14 // which equals 3
+
+* in order to convert numbers to Strings you must do dataType.toString(variable) for instance Integer.toString(15);
+
+
