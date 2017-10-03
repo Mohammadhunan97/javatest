@@ -26,3 +26,11 @@
 longs having the largest range; in order from smallest to largest range), likewise they are in order from smallest to largest bit size
 , for instance: byte = 8 bits, shorts = 16 bits, ints = 32 bits, and longs = 64 bits. Ints are most commonly used, 
 you can see a full image of this here: <br/> ![primitive data types graph](http://xoax.net/web/crs/java/lessons/Lesson3/Image1.png)
+
+* floats and doubles are both floating point (decimal numbers), doubles are more common and have a larger range. 
+Floats are 32 bits, while doubles are 64 bits. 
+
+* Char is a single unicode that is 16 bits
+
+* booleans are true/false values that are less than or equal to 1 bit.
+
