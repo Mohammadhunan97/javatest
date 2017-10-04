@@ -36,6 +36,6 @@ Floats are 32 bits, while doubles are 64 bits.
 
 * you can cast to a different datatype by newvar = (what you want to cast to) <old var>; for instance, int foo = (int) 3.14 // which equals 3
 
-* in order to convert numbers to Strings you must do dataType.toString(variable) for instance Integer.toString(15);
+* in order to convert numbers to Strings you must do dataType.toString(variable) for instance String foo =  Integer.toString(15);
 
-
+* to convert a string to a number you can do foo = dataType.parseInt("<number>"); for instance int foo = Integer.parseInt("3"); or float bar = Float.parseFloat("3.14159141552");
