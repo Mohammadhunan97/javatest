@@ -7,13 +7,7 @@ public class JavaLessonTwo
 
 	public static void main(String args[])
 	{
-		System.out.print("Your favorite Number:");
-		if(userInput.hasNextInt()){
-			int numberEntered = userInput.nextInt();
-			System.out.print(" nice integer \t");
-			System.out.print(numberEntered);
-		}else{
-			System.out.print("cool " + userInput.nextLine());
-		}
+
+		System.out.println((int) Math.floor(3.14));
 	}
 }
