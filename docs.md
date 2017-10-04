@@ -1,4 +1,8 @@
-## java documentation:
+# java documentation:
+
+
+
+## Mostly Variable stuff:
 
 * everything is a class in java
 
@@ -39,3 +43,6 @@ Floats are 32 bits, while doubles are 64 bits.
 * in order to convert numbers to Strings you must do dataType.toString(variable) for instance String foo =  Integer.toString(15);
 
 * to convert a string to a number you can do foo = dataType.parseInt("<number>"); for instance int foo = Integer.parseInt("3"); or float bar = Float.parseFloat("3.14159141552");
+
+
+# Part two:
