@@ -7,14 +7,12 @@ public class HelloWorld1
 	{
 		boolean isOver21 = false;
 
-		String cool = Integer.toString(5);
-
-		String fun = (String) 5;
+		String foo =  Integer.toString(15);
 
 		if(isOver21 == true){
 			System.out.println("you can't drink");
 		}else{
-			System.out.println("my favorite number is " + fun);
+			System.out.println("my favorite number is " + foo);
 		}
 
 		
