@@ -3,14 +3,25 @@ import java.lang.Math;
 
 public class JavaLessonTwo 
 {
+
 	public static void main(String args[])
 	{
-		int boy = 18;
-		int girl = 59;
-		if(boy >= 18 ^ girl < 60){
-			System.out.println("You can enter");
-		}else{
-			System.out.println("You cannot enter");
+		System.out.print("pick your favorite letter: ");
+		Scanner userInput = new Scanner(System.in);
+		char foo = userInput.next().charAt(0);
+		switch(foo){
+			case 'A': 
+				System.out.println("A is for apples");
+				break;
+			case 'B': 
+				System.out.println("B is for bananas");
+				break;
+			case 'C': 
+				System.out.println("C is for cats");
+				break;
+			default: 
+				System.out.println("that's not a letter");
+				break;
 		}
 	}
 }
