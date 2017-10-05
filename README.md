@@ -57,3 +57,4 @@ Floats are 32 bits, while doubles are 64 bits.
 
 * you can use the math class by doing, import java.lang.Math; at the top of the page, and including which ever math methods you need (this is very similar to javascript); for example, System.out.println((int) Math.floor(3.14));
 
+* Xor operator if(bla ^ foo) only one can be true and the other is false. There is also a distinction with && and & and || and |, where the shorter ones are bitwise (| and &)  but the longer ones (|| and &&) are conditional and should be used commonly
