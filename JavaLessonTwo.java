@@ -3,11 +3,14 @@ import java.lang.Math;
 
 public class JavaLessonTwo 
 {
-	static Scanner userInput = new Scanner(System.in);
-
 	public static void main(String args[])
 	{
-
-		System.out.println((int) Math.floor(3.14));
+		int boy = 18;
+		int girl = 59;
+		if(boy >= 18 ^ girl < 60){
+			System.out.println("You can enter");
+		}else{
+			System.out.println("You cannot enter");
+		}
 	}
 }
