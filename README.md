@@ -49,7 +49,7 @@ Floats are 32 bits, while doubles are 64 bits.
 
 * you can import an external class by import java.util.<classname> or java.util.* to import the entire java util library
 ; for example java.util.Scanner;
-* static Scanner = userInput = new Scanner(System.in); defines a variable which is a new Scanner object, which takes the parameter of what type of scanner you would like to use, in this case System.in (aka user keyboard)
+*  Scanner userInput = new Scanner(System.in); defines a variable which is a new Scanner object, which takes the parameter of what type of scanner you would like to use, in this case System.in (aka user keyboard)
 
 * to check if a user input is a certain type you can run userInput.hasNext<data type>()  for instance if(userInput.hasNextInt()){}
 
