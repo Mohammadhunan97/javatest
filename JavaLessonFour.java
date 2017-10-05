@@ -2,18 +2,22 @@ import java.util.*;
 
 public class JavaLessonFour
 {
-	static Scanner userinput = new Scanner(System.in);
 
 	public static void main(String args[])
 	{
-		String YorN = "Y";
 
-		int h = 1;
+		int c = addNums(1,2);
+		System.out.println(c);
 
-		while(YorN.equalsIgnoreCase("y")){
-			System.out.print("Continue y or n?: ");
-			YorN = userinput.nextLine();
-		}
+		numsAdd(3,4);
+	}
+
+	public static int addNums(int a, int b){
+		return a + b;
+	}
+
+	public static void numsAdd(int a, int b){
+		System.out.println(a + b);
 	}
 }
 

@@ -3,7 +3,6 @@ import java.lang.Math;
 
 public class JavaLessonTwo 
 {
-
 	public static void main(String args[])
 	{
 		System.out.print("pick your favorite letter: ");
